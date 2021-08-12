@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AutoInstaller.jnlp">
+  <information>
+    <title>AutoInstaller</title>
+    <vendor>kevinchen</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AutoInstaller.jar" size="32159" download="eager" />
+    <jar href="lib/SungalG6CommonClasses.jar" size="82774" download="eager" />
+    <jar href="lib/javafx-graphics-11.0.1-javadoc.jar" size="10150299" download="eager" />
+    <jar href="lib/json-20131018.jar" size="65139" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="autoinstaller.AutoInstaller"  name="AutoInstaller" />
+  <update check="always"/>
+</jnlp>
