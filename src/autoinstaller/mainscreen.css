@@ -1,0 +1,38 @@
+.text-area {
+    -fx-background-color:  #EBEBEB;
+
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+
+}
+
+.text-area .scroll-pane .viewport{
+
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.button {
+    -fx-background-color: 
+        #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    /*-fx-background-insets: 0,1,2;*/
+    -fx-background-radius: 3,2,1;
+    
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    
+    -fx-pref-height: 20px;
+    
+    /*this is here to provice margin of 5px*/
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
